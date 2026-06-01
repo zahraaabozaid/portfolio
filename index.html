@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alzahraa Abozaid Elsayed | Computer Science Student & Developer</title>
+  <meta name="description" content="Professional portfolio of Alzahraa Abozaid Elsayed, a high-achieving Computer Science student specializing in backend engineering, algorithmic optimization, and UI/UX design.">
+  
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-theme="dark">
+
+  <!-- Ambient Glow Blobs -->
+  <div class="ambient-glow ambient-1"></div>
+  <div class="ambient-glow ambient-2"></div>
+
+  <!-- ------------------------------------------------------------------------
+       1. STICKY GLASSMORPHIC NAVBAR
+       ------------------------------------------------------------------------ -->
+  <header class="header" id="header">
+    <div class="nav-container">
+      <a href="#hero" class="logo">ALZAHRAA<span></span></a>
+      
+      <nav class="nav-menu" id="nav-menu">
+        <a href="#hero" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#experience" class="nav-link">Timeline</a>
+        <a href="#certificates" class="nav-link">Honors</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <!-- Theme Toggle Switch -->
+        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark/light theme">
+          <i data-lucide="sun" class="sun-icon"></i>
+          <i data-lucide="moon" class="moon-icon"></i>
+        </button>
+        
+        <!-- Mobile Nav Menu Toggle (Hamburger) -->
+        <button class="mobile-nav-toggle" id="mobile-toggle" aria-label="Toggle navigation menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ------------------------------------------------------------------------
+       2. HERO SECTION
+       ------------------------------------------------------------------------ -->
+  <section class="hero" id="hero">
+    <div class="container hero-grid">
+      <div class="hero-content reveal">
+        <div class="hero-subtitle">
+          <i data-lucide="terminal"></i> zahraa_abozaid.init()
+        </div>
+        <h1 class="hero-title">Alzahraa Abozaid</h1>
+        <div class="hero-tagline">
+          I build <span class="gradient-text">robust systems</span> & modern interfaces.
+        </div>
+        <p class="hero-desc">
+          Computer Science student with hands-on full-stack engineering experience across desktop, web, and systems projects. Proficient in backend architecture, algorithmic optimization, and intuitive UI/UX design.
+        </p>
+        
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary">
+            Explore Work <i data-lucide="arrow-right"></i>
+          </a>
+          <a href="#contact" class="btn btn-secondary">Let's Connect</a>
+        </div>
+        
+        <div class="hero-socials">
+          <span class="social-title">Connect:</span>
+          <div class="social-links">
+            <a href="https://github.com/Alzahraa-Abozaid" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="GitHub Profile">
+              <i data-lucide="github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/alzahraa-abozaid-744306261/" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="LinkedIn Profile">
+              <i data-lucide="linkedin"></i>
+            </a>
+            <a href="mailto:zahraaabozaid06@gmail.com" class="social-icon" aria-label="Send Email">
+              <i data-lucide="mail"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Interactive Terminal Mockup -->
+      <div class="hero-visual reveal reveal-delay-2">
+        <div class="hero-terminal glass-card">
+          <div class="terminal-header">
+            <div class="terminal-dots">
+              <span class="terminal-dot red"></span>
+              <span class="terminal-dot yellow"></span>
+              <span class="terminal-dot green"></span>
+            </div>
+            <div class="terminal-title">developer@alzahraa:~</div>
+            <i data-lucide="code" size="14"></i>
+          </div>
+          <div class="terminal-body">
+            <div class="terminal-line">
+              <span class="terminal-prompt">$</span>cat developer.json
+            </div>
+            <div class="terminal-line">
+              {
+            </div>
+            <div class="terminal-line">
+              &nbsp;&nbsp;<span class="terminal-keyword">"name"</span>: <span class="terminal-string">"Alzahraa Abozaid Elsayed"</span>,
+            </div>
+            <div class="terminal-line">
+              &nbsp;&nbsp;<span class="terminal-keyword">"role"</span>: <span class="terminal-string">"Computer Science Student"</span>,
+            </div>
+            <div class="terminal-line">
+              &nbsp;&nbsp;<span class="terminal-keyword">"gpa"</span>: <span class="terminal-number">3.78</span>,
+            </div>
+            <div class="terminal-line">
+              &nbsp;&nbsp;<span class="terminal-keyword">"skills"</span>: [<span class="terminal-string">"Backend"</span>, <span class="terminal-string">"Algorithms"</span>, <span class="terminal-string">"UI/UX"</span>],
+            </div>
+            <div class="terminal-line">
+              &nbsp;&nbsp;<span class="terminal-keyword">"location"</span>: <span class="terminal-string">"Aswan, Egypt"</span>,
+            </div>
+            <div class="terminal-line">
+              &nbsp;&nbsp;<span class="terminal-keyword">"eagerToLearn"</span>: <span class="terminal-number">true</span>
+            </div>
+            <div class="terminal-line">
+              }
+            </div>
+            <div class="terminal-line">
+              <span class="terminal-prompt">$</span><span class="terminal-comment"># Ready to engineer innovative systems.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ------------------------------------------------------------------------
+       3. ABOUT ME SECTION
+       ------------------------------------------------------------------------ -->
+  <section class="about" id="about">
+    <div class="container">
+      <span class="section-tag">About Me</span>
+      <h2 class="section-title">Behind the Code</h2>
+      
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p>
+            I am a highly motivated Computer Science student at the <strong>Arab Academy for Science, Technology & Maritime Transport</strong> (Aswan, Egypt), expected to graduate in July 2028.
+          </p>
+          <p>
+            My technical focus lies at the intersection of robust backend architectures, algorithmic efficiency, and seamless user experiences. With hands-on experience designing full-stack systems, I thrive on translating complex mathematical or operational requirements into pristine, maintainable code.
+          </p>
+          <div class="about-highlight">
+            "I enjoy solving algorithmic challenges, creating optimized data flows, and designing interfaces that are clean, professional, and accessible."
+          </div>
+          <p>
+            Equipped with certifications like Harvard's edX CS50x and holding a top academic position with a cumulative GPA of 3.78/4.00, I am eager to apply my skills to high-impact projects and collaborate with industry-leading engineering environments.
+          </p>
+        </div>
+        
+        <!-- Interactive Stat Cards -->
+        <div class="about-stats reveal reveal-delay-2">
+          <div class="stat-card glass-card">
+            <div class="stat-number">3.78</div>
+            <div class="stat-label">Cumulative GPA</div>
+            <div class="stat-desc">Top academic standing</div>
+          </div>
+          <div class="stat-card glass-card">
+            <div class="stat-number">10+</div>
+            <div class="stat-label">Projects Completed</div>
+            <div class="stat-desc">Systems, web, and desktop</div>
+          </div>
+          <div class="stat-card glass-card">
+            <div class="stat-number">4.0</div>
+            <div class="stat-label">First Year Standing</div>
+            <div class="stat-desc">Ranked in top percentage</div>
+          </div>
+          <div class="stat-card glass-card">
+            <div class="stat-number">100%</div>
+            <div class="stat-label">Dedicated</div>
+            <div class="stat-desc">Lifelong learning mindset</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ------------------------------------------------------------------------
+       4. TECHNICAL SKILLS SECTION
+       ------------------------------------------------------------------------ -->
+  <section class="skills" id="skills">
+    <div class="container">
+      <span class="section-tag">Tech Stack</span>
+      <h2 class="section-title">Technical Capabilities</h2>
+      <p class="section-desc">
+        A breakdown of the programming languages, frontend frameworks, backend layers, and development tools in my arsenal.
+      </p>
+      
+      <div class="skills-container reveal">
+        <!-- Interactive Skill Filtering Tabs -->
+        <div class="skills-tabs">
+          <button class="tab-btn active" data-filter="all">All Skills</button>
+          <button class="tab-btn" data-filter="languages">Languages</button>
+          <button class="tab-btn" data-filter="frontend">Frontend & Web</button>
+          <button class="tab-btn" data-filter="backend">Backend & DB</button>
+          <button class="tab-btn" data-filter="tools">Dev & Design Tools</button>
+        </div>
+        
+        <!-- Skills Badge Grid -->
+        <div class="skills-grid" id="skills-grid">
+          <!-- Skill: C++ -->
+          <div class="skill-card glass-card" data-category="languages">
+            <i data-lucide="binary"></i>
+            <span class="skill-name">C++</span>
+            <span class="skill-category">Systems / DSA</span>
+          </div>
+          <!-- Skill: Java -->
+          <div class="skill-card glass-card" data-category="languages">
+            <i data-lucide="coffee"></i>
+            <span class="skill-name">Java</span>
+            <span class="skill-category">Core OOP / FX</span>
+          </div>
+          <!-- Skill: Python -->
+          <div class="skill-card glass-card" data-category="languages">
+            <i data-lucide="code-2"></i>
+            <span class="skill-name">Python</span>
+            <span class="skill-category">Algorithms / Scripting</span>
+          </div>
+          <!-- Skill: JavaScript -->
+          <div class="skill-card glass-card" data-category="languages frontend">
+            <i data-lucide="brackets"></i>
+            <span class="skill-name">JavaScript</span>
+            <span class="skill-category">Core Interaction</span>
+          </div>
+          <!-- Skill: TypeScript -->
+          <div class="skill-card glass-card" data-category="languages frontend">
+            <i data-lucide="shield-check"></i>
+            <span class="skill-name">TypeScript</span>
+            <span class="skill-category">Type-Safe Web</span>
+          </div>
+          <!-- Skill: React -->
+          <div class="skill-card glass-card" data-category="frontend">
+            <i data-lucide="atom"></i>
+            <span class="skill-name">React</span>
+            <span class="skill-category">Single Page Apps</span>
+          </div>
+          <!-- Skill: Next.js -->
+          <div class="skill-card glass-card" data-category="frontend">
+            <i data-lucide="globe-2"></i>
+            <span class="skill-name">Next.js</span>
+            <span class="skill-category">React Framework</span>
+          </div>
+          <!-- Skill: HTML & CSS -->
+          <div class="skill-card glass-card" data-category="frontend">
+            <i data-lucide="layout"></i>
+            <span class="skill-name">HTML5 / CSS3</span>
+            <span class="skill-category">Semantic Layout</span>
+          </div>
+          <!-- Skill: Tailwind CSS -->
+          <div class="skill-card glass-card" data-category="frontend">
+            <i data-lucide="palette"></i>
+            <span class="skill-name">Tailwind CSS</span>
+            <span class="skill-category">Utility First Styling</span>
+          </div>
+          <!-- Skill: Node.js / Express -->
+          <div class="skill-card glass-card" data-category="backend">
+            <i data-lucide="server"></i>
+            <span class="skill-name">Node / Express</span>
+            <span class="skill-category">RESTful Services</span>
+          </div>
+          <!-- Skill: Supabase -->
+          <div class="skill-card glass-card" data-category="backend">
+            <i data-lucide="database-backup"></i>
+            <span class="skill-name">Supabase</span>
+            <span class="skill-category">Serverless / Auth</span>
+          </div>
+          <!-- Skill: SQL / PostgreSQL -->
+          <div class="skill-card glass-card" data-category="backend">
+            <i data-lucide="database"></i>
+            <span class="skill-name">PostgreSQL / MySQL</span>
+            <span class="skill-category">Relational DBs</span>
+          </div>
+          <!-- Skill: Figma -->
+          <div class="skill-card glass-card" data-category="tools">
+            <i data-lucide="figma"></i>
+            <span class="skill-name">Figma</span>
+            <span class="skill-category">UX / Wireframing</span>
+          </div>
+          <!-- Skill: Git & GitHub -->
+          <div class="skill-card glass-card" data-category="tools">
+            <i data-lucide="git-branch"></i>
+            <span class="skill-name">Git & GitHub</span>
+            <span class="skill-category">Version Control</span>
+          </div>
+          <!-- Skill: LaTeX -->
+          <div class="skill-card glass-card" data-category="tools">
+            <i data-lucide="scroll"></i>
+            <span class="skill-name">LaTeX / Overleaf</span>
+            <span class="skill-category">Academic Reporting</span>
+          </div>
+          <!-- Skill: Mapbox API -->
+          <div class="skill-card glass-card" data-category="backend tools">
+            <i data-lucide="map-pin"></i>
+            <span class="skill-name">Mapbox API</span>
+            <span class="skill-category">Spatial Routing</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ------------------------------------------------------------------------
+       5. PROJECTS SHOWCASE SECTION (Featured and Secondary)
+       ------------------------------------------------------------------------ -->
+  <section class="projects" id="projects">
+    <div class="container">
+      <span class="section-tag">Featured Work</span>
+      <h2 class="section-title">Projects Showcase</h2>
+      <p class="section-desc">
+        A highly engineered selection of core systems, web platforms, and applications, featuring live deployments and production layers.
+      </p>
+      
+      <!-- Primary Projects Grid -->
+      <div class="projects-grid reveal">
+        
+        <!-- Project 1: CivicPulse -->
+        <div class="project-card glass-card">
+          <div class="project-header">
+            <div class="project-badge-group">
+              <span class="project-type-badge">Full-Stack</span>
+              <span class="project-type-badge">Team Project</span>
+            </div>
+            <i data-lucide="folder-git-2" class="project-folder-icon"></i>
+          </div>
+          <div class="project-body">
+            <h3 class="project-card-title">CivicPulse</h3>
+            <p style="color: var(--text-secondary); margin-bottom: 15px; font-size: 0.9rem; font-style: italic;">Smart Civic Engagement Platform</p>
+            <ul class="project-bullets">
+              <li>Empowered citizens to report municipal infrastructure issues (damage, fires, maintenance) with localized incident tagging and photographic evidence uploads.</li>
+              <li>Engineered a backend evaluation engine that processes reports, integrates imagery, and automatically triages severity and risk levels to enable priority-based triage.</li>
+            </ul>
+            <div class="project-tags">
+              <span class="project-tag">Full-Stack</span>
+              <span class="project-tag">Image Processing</span>
+              <span class="project-tag">Backend Triage</span>
+            </div>
+          </div>
+          <div class="project-footer">
+            <a href="https://github.com/Alzahraa-Abozaid" target="_blank" rel="noopener noreferrer" class="project-btn" aria-label="CivicPulse GitHub">
+              <i data-lucide="github"></i> Code
+            </a>
+            <a href="https://civic-final-production-a84c.up.railway.app/" target="_blank" rel="noopener noreferrer" class="project-btn demo" aria-label="CivicPulse Live Demo">
+              Live Demo <i data-lucide="external-link"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Project 2: Mind2Mind -->
+        <div class="project-card glass-card">
+          <div class="project-header">
+            <div class="project-badge-group">
+              <span class="project-type-badge">Supabase / JS</span>
+              <span class="project-type-badge">Team Project</span>
+            </div>
+            <i data-lucide="folder-git-2" class="project-folder-icon"></i>
+          </div>
+          <div class="project-body">
+            <h3 class="project-card-title">Mind2Mind</h3>
+            <p style="color: var(--text-secondary); margin-bottom: 15px; font-size: 0.9rem; font-style: italic;">Peer-to-Peer Skill Exchange Platform</p>
+            <ul class="project-bullets">
+              <li>Architected the entire serverless backend on Supabase, leveraging its PostgreSQL database, authentication system, and real-time sockets to eliminate custom server overhead.</li>
+              <li>Engineered workflows for user profile management, multi-category skill tagging (tech, arts), and an exchange request pipeline tracking proposals and demo sessions.</li>
+            </ul>
+            <div class="project-tags">
+              <span class="project-tag">Supabase</span>
+              <span class="project-tag">PostgreSQL</span>
+              <span class="project-tag">Real-Time Sockets</span>
+            </div>
+          </div>
+          <div class="project-footer">
+            <a href="https://github.com/Alzahraa-Abozaid" target="_blank" rel="noopener noreferrer" class="project-btn" aria-label="Mind2Mind GitHub">
+              <i data-lucide="github"></i> Code
+            </a>
+            <a href="https://mind2mind2-five.vercel.app/" target="_blank" rel="noopener noreferrer" class="project-btn demo" aria-label="Mind2Mind Live Demo">
+              Live Demo <i data-lucide="external-link"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Project 3: Wasalny -->
+        <div class="project-card glass-card">
+          <div class="project-header">
+            <div class="project-badge-group">
+              <span class="project-type-badge">DSA / Mapbox</span>
+              <span class="project-type-badge">Team Project</span>
+            </div>
+            <i data-lucide="folder-git-2" class="project-folder-icon"></i>
+          </div>
+          <div class="project-body">
+            <h3 class="project-card-title">Wasalny</h3>
+            <p style="color: var(--text-secondary); margin-bottom: 15px; font-size: 0.9rem; font-style: italic;">Microbus Station Management & Routing System</p>
+            <ul class="project-bullets">
+              <li>Optimized local route calculations for Aswan's microbus network by implementing graph traversal and shortest-path algorithms, reducing query complexity.</li>
+              <li>Integrated the Mapbox API to embed fully interactive maps with real-time location mapping and routing, eliminating commercial API dependency.</li>
+            </ul>
+            <div class="project-tags">
+              <span class="project-tag">Data Structures</span>
+              <span class="project-tag">Mapbox API</span>
+              <span class="project-tag">Graph Theory</span>
+            </div>
+          </div>
+          <div class="project-footer">
+            <a href="https://github.com/Alzahraa-Abozaid" target="_blank" rel="noopener noreferrer" class="project-btn" aria-label="Wasalny GitHub">
+              <i data-lucide="github"></i> Code
+            </a>
+            <a href="https://wasalny-shoukran.vercel.app/" target="_blank" rel="noopener noreferrer" class="project-btn demo" aria-label="Wasalny Live Demo">
+              Live Demo <i data-lucide="external-link"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Project 4: Ma5zany -->
+        <div class="project-card glass-card">
+          <div class="project-header">
+            <div class="project-badge-group">
+              <span class="project-type-badge">Java / MySQL</span>
+              <span class="project-type-badge">Team Project</span>
+            </div>
+            <i data-lucide="folder-git-2" class="project-folder-icon"></i>
+          </div>
+          <div class="project-body">
+            <h3 class="project-card-title">Ma5zany (M5zany)</h3>
+            <p style="color: var(--text-secondary); margin-bottom: 15px; font-size: 0.9rem; font-style: italic;">Multi-Branch ERP Platform</p>
+            <ul class="project-bullets">
+              <li>Reduced database layer boilerplate by engineering a generic repository using Java reflection and generic types, abstracting all CRUD operations.</li>
+              <li>Implemented inventory expiry triggers using a multi-threaded background scanner which pushes JavaFX dashboard alerts 7 days before product expiration.</li>
+            </ul>
+            <div class="project-tags">
+              <span class="project-tag">Java 17+</span>
+              <span class="project-tag">JavaFX</span>
+              <span class="project-tag">Socket Programming</span>
+            </div>
+          </div>
+          <div class="project-footer">
+            <a href="https://github.com/Alzahraa-Abozaid" target="_blank" rel="noopener noreferrer" class="project-btn" aria-label="Ma5zany GitHub">
+              <i data-lucide="github"></i> Code
+            </a>
+            <a href="https://ma5zany-final.vercel.app/" target="_blank" rel="noopener noreferrer" class="project-btn demo" aria-label="Ma5zany Live Demo">
+              Live Demo <i data-lucide="external-link"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Project 5: Room Management System -->
+        <div class="project-card glass-card">
+          <div class="project-header">
+            <div class="project-badge-group">
+              <span class="project-type-badge">REST API</span>
+              <span class="project-type-badge">Academic Project</span>
+            </div>
+            <i data-lucide="folder-git-2" class="project-folder-icon"></i>
+          </div>
+          <div class="project-body">
+            <h3 class="project-card-title">Room Management System</h3>
+            <p style="color: var(--text-secondary); margin-bottom: 15px; font-size: 0.9rem; font-style: italic;">Interactive Booking Platform</p>
+            <ul class="project-bullets">
+              <li>Designed and implemented a robust Room Management System managing real-time space allocation, dynamic booking, and administrative authorization workflows.</li>
+              <li>Optimized system responsiveness and concurrency handling by architecting standard RESTful APIs integrated with an optimized database layer.</li>
+            </ul>
+            <div class="project-tags">
+              <span class="project-tag">REST APIs</span>
+              <span class="project-tag">Node / SQL</span>
+              <span class="project-tag">Space Allocation</span>
+            </div>
+          </div>
+          <div class="project-footer">
+            <a href="https://github.com/Alzahraa-Abozaid" target="_blank" rel="noopener noreferrer" class="project-btn" aria-label="Room Management GitHub">
+              <i data-lucide="github"></i> Code
+            </a>
+            <a href="https://api-confection.vercel.app" target="_blank" rel="noopener noreferrer" class="project-btn demo" aria-label="Room Management Live Demo">
+              Live Demo <i data-lucide="external-link"></i>
+            </a>
+          </div>
+        </div>
+
+      </div>
+      
+      <!-- Drawer for More Academic & Systems Projects -->
+      <div class="secondary-projects-trigger">
+        <button class="btn btn-secondary" id="toggle-more-projects">
+          Show More Systems Projects <i data-lucide="chevron-down" id="drawer-arrow"></i>
+        </button>
+      </div>
+
+      <div class="secondary-projects-container" id="more-projects-drawer">
+        <div class="secondary-projects-grid">
+          
+          <!-- Secondary 1: KIMA Chemical Factory System -->
+          <div class="secondary-project-card glass-card">
+            <h3 class="project-card-title" style="font-size: 1.15rem; margin-bottom: 10px;">Chemical Factory Management (KIMA)</h3>
+            <p style="font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 12px;">Database System & Full-Stack Interface</p>
+            <p style="font-size: 0.88rem; color: var(--text-secondary); line-height: 1.5; margin-bottom: 15px;">
+              Designed factory management software spanning front-end, back-end, database, and wireframing layers. Modeled in Figma & Draw.io with SQL/Supabase persistence.
+            </p>
+            <div class="project-tags" style="margin-top: auto;">
+              <span class="project-tag">Supabase</span>
+              <span class="project-tag">Figma</span>
+              <span class="project-tag">Draw.io</span>
+            </div>
+          </div>
+
+          <!-- Secondary 2: Cryptography Web Platform -->
+          <div class="secondary-project-card glass-card">
+            <h3 class="project-card-title" style="font-size: 1.15rem; margin-bottom: 10px;">Cryptography Web Platform</h3>
+            <p style="font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 12px;">Cybersecurity Learning Platform</p>
+            <p style="font-size: 0.88rem; color: var(--text-secondary); line-height: 1.5; margin-bottom: 15px;">
+              Programmed a backend executing 5+ encryption algorithms (Caesar, Hill, ROT13, RSA) delivering instantaneous encrypt/decrypt feedback via a web interface.
+            </p>
+            <div class="project-tags">
+              <span class="project-tag">Python</span>
+              <span class="project-tag">Cybersecurity</span>
+              <span class="project-tag">Asymmetric RSA</span>
+            </div>
+          </div>
+
+          <!-- Secondary 3: Travelling Salesman C++ solver -->
+          <div class="secondary-project-card glass-card">
+            <h3 class="project-card-title" style="font-size: 1.15rem; margin-bottom: 10px;">Travelling Salesman Problem</h3>
+            <p style="font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 12px;">Combinatorial Optimization Solver</p>
+            <p style="font-size: 0.88rem; color: var(--text-secondary); line-height: 1.5; margin-bottom: 15px;">
+              Formulated and solved travel route optimization using dynamic programming and graph structures in optimized C++, complete with engineering logs.
+            </p>
+            <div class="project-tags">
+              <span class="project-tag">C++</span>
+              <span class="project-tag">DP</span>
+              <span class="project-tag">Graph Theory</span>
+            </div>
+          </div>
+
+          <!-- Secondary 4: Departmental Network Design -->
+          <div class="secondary-project-card glass-card">
+            <h3 class="project-card-title" style="font-size: 1.15rem; margin-bottom: 10px;">Departmental Network Design</h3>
+            <p style="font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 12px;">Cisco Packet Tracer Topology</p>
+            <p style="font-size: 0.88rem; color: var(--text-secondary); line-height: 1.5; margin-bottom: 15px;">
+              Designed and simulated local corporate topologies using subnetting structures, static/dynamic routing, and gateway configurations in Cisco Packet Tracer.
+            </p>
+            <div class="project-tags">
+              <span class="project-tag">Networking</span>
+              <span class="project-tag">Cisco Packet Tracer</span>
+              <span class="project-tag">Subnetting</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      
+    </div>
+  </section>
+
+  <!-- ------------------------------------------------------------------------
+       6. EXPERIENCE & EDUCATION TIMELINE
+       ------------------------------------------------------------------------ -->
+  <section class="experience" id="experience">
+    <div class="container">
+      <span class="section-tag">Timeline</span>
+      <h2 class="section-title">Academic & Project Journey</h2>
+      <p class="section-desc">
+        A vertical timeline tracking my academic progression and major technical milestones.
+      </p>
+      
+      <div class="timeline reveal">
+        <!-- Education 1 -->
+        <div class="timeline-item left">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content glass-card">
+            <div class="timeline-date">Sep 2024 - Present</div>
+            <h3 class="timeline-title">Bachelor of Computer Science</h3>
+            <h4 class="timeline-subtitle">Arab Academy for Science, Technology & Maritime Transport</h4>
+            <p class="timeline-desc">
+              Currently pursuing my undergraduate degree in Computer Science (Aswan, Egypt). Maintained a high cumulative GPA of 3.78/4.00, placing among the top tier students. Heavy emphasis on foundational programming, data structures, databases, and network topology models.
+            </p>
+          </div>
+        </div>
+        
+        <!-- Milestone 1: CS50x -->
+        <div class="timeline-item right">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content glass-card">
+            <div class="timeline-date">Completed 2025</div>
+            <h3 class="timeline-title">Harvard's CS50x Certification</h3>
+            <h4 class="timeline-subtitle">edX Platform / Harvard University</h4>
+            <p class="timeline-desc">
+              Successfully completed the rigorous CS50x introduction to computer science course. Built algorithms in C, explored memory allocation, web databases with Python/Flask, and structured local database logic.
+            </p>
+          </div>
+        </div>
+
+        <!-- Project Milestone: Ma5zany -->
+        <div class="timeline-item left">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content glass-card">
+            <div class="timeline-date">ERP Platform Construction</div>
+            <h3 class="timeline-title">Ma5zany ERP Platform</h3>
+            <h4 class="timeline-subtitle">Database & Desktop Architecture Milestone</h4>
+            <p class="timeline-desc">
+              Designed a secure inventory warning module utilizing multithreading in JavaFX. Spearheaded a reusable JDBC generic repository abstraction that served as the foundational layer of the team ERP architecture.
+            </p>
+          </div>
+        </div>
+
+        <!-- Future Graduation -->
+        <div class="timeline-item right">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content glass-card">
+            <div class="timeline-date">Expected Jul 2028</div>
+            <h3 class="timeline-title">Graduation & Engineering Entry</h3>
+            <h4 class="timeline-subtitle">Future Roadmap Focus</h4>
+            <p class="timeline-desc">
+              Progressing towards higher-level systems courses, specialized backend research, and advanced software engineering internships in distributed applications.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ------------------------------------------------------------------------
+       7. CERTIFICATES & ACHIEVEMENTS SECTION
+       ------------------------------------------------------------------------ -->
+  <section class="certificates" id="certificates">
+    <div class="container">
+      <span class="section-tag">Accomplishments</span>
+      <h2 class="section-title">Honors & Qualifications</h2>
+      <p class="section-desc">
+        A showcase of validated certifications, academic rankings, and upcoming technical designations.
+      </p>
+      
+      <div class="certificates-grid reveal">
+        <!-- Panel 1: Academic Excellence -->
+        <div class="cert-panel glass-card">
+          <h3 class="cert-panel-title">
+            <i data-lucide="award"></i> Academic Excellence & Honors
+          </h3>
+          <div class="cert-list">
+            <div class="cert-item">
+              <h4 class="cert-item-title">High GPA Distinction</h4>
+              <p class="cert-item-org">Arab Academy for Science, Technology & Maritime Transport</p>
+              <p class="cert-item-date">GPA 3.78/4.00 - Top Tier Rank</p>
+            </div>
+            <div class="cert-item">
+              <h4 class="cert-item-title">Outstanding First Year Honors</h4>
+              <p class="cert-item-org">Academic Board Recognition, Aswan Department</p>
+              <p class="cert-item-date">Acknowledged for foundational mathematics & system design excellence</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Panel 2: Certifications Showcase & Placeholders -->
+        <div class="cert-panel glass-card">
+          <h3 class="cert-panel-title">
+            <i data-lucide="badge-check"></i> Certifications & Credentials
+          </h3>
+          <div class="cert-list">
+            <div class="cert-item">
+              <h4 class="cert-item-title">CS50x: Introduction to Computer Science</h4>
+              <p class="cert-item-org">Harvard University (via edX)</p>
+              <p class="cert-item-date">Credential ID: Verified Certificate</p>
+            </div>
+            
+            <!-- Interactive placeholders for future certifications -->
+            <div class="cert-placeholder-item" id="add-cert-placeholder">
+              <i data-lucide="plus-circle" style="vertical-align: middle; margin-right: 4px; display: inline-block;"></i> 
+              Add AWS / Cloud Practitioner Certification
+            </div>
+            
+            <div class="cert-placeholder-item">
+              <i data-lucide="plus-circle" style="vertical-align: middle; margin-right: 4px; display: inline-block;"></i> 
+              Add Oracle Certified Java Associate
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ------------------------------------------------------------------------
+       8. CONTACT SECTION
+       ------------------------------------------------------------------------ -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <span class="section-tag">Let's Connect</span>
+      <h2 class="section-title">Get in Touch</h2>
+      <p class="section-desc">
+        Interested in collaborating, hiring, or discussing systems engineering? Send an email or use the instant form below.
+      </p>
+      
+      <div class="contact-grid reveal">
+        <!-- Contact Information Block -->
+        <div class="contact-info">
+          
+          <!-- Card: Email (Interactive Copy) -->
+          <div class="contact-card glass-card" id="email-card" style="cursor: pointer;">
+            <div class="contact-card-icon">
+              <i data-lucide="mail"></i>
+            </div>
+            <div class="contact-card-details">
+              <h4>Email (Click to copy)</h4>
+              <p>
+                zahraaabozaid06@gmail.com
+                <span class="copy-badge" id="copy-status">Copied!</span>
+              </p>
+            </div>
+          </div>
+
+          <!-- Card: Phone -->
+          <div class="contact-card glass-card">
+            <div class="contact-card-icon">
+              <i data-lucide="phone"></i>
+            </div>
+            <div class="contact-card-details">
+              <h4>Phone Number</h4>
+              <p>+20 1005174685</p>
+            </div>
+          </div>
+
+          <!-- Card: Location -->
+          <div class="contact-card glass-card">
+            <div class="contact-card-icon">
+              <i data-lucide="map-pin"></i>
+            </div>
+            <div class="contact-card-details">
+              <h4>Location & Citizen Status</h4>
+              <p>Aswan, Egypt (DOB: 05/11/2006)</p>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Premium Contact Form Panel -->
+        <div class="contact-form-panel glass-card">
+          <form id="contact-form" action="#" method="POST" autocomplete="off">
+            
+            <div class="form-group">
+              <input type="text" id="form-name" class="form-input" placeholder=" " required>
+              <label for="form-name" class="form-label">Your Name</label>
+            </div>
+
+            <div class="form-group">
+              <input type="email" id="form-email" class="form-input" placeholder=" " required>
+              <label for="form-email" class="form-label">Email Address</label>
+            </div>
+
+            <div class="form-group">
+              <input type="text" id="form-subject" class="form-input" placeholder=" ">
+              <label for="form-subject" class="form-label">Subject</label>
+            </div>
+
+            <div class="form-group">
+              <textarea id="form-message" class="form-input" placeholder=" " required></textarea>
+              <label for="form-message" class="form-label">Message Details</label>
+            </div>
+
+            <button type="submit" class="btn btn-primary" style="width: 100%; justify-content: center;">
+              Send Message <i data-lucide="send"></i>
+            </button>
+            
+            <div class="form-status" id="form-status-msg"></div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ------------------------------------------------------------------------
+       9. FOOTER SECTION
+       ------------------------------------------------------------------------ -->
+  <footer class="footer">
+    <div class="footer-container">
+      <p>&copy; 2026 Alzahraa Abozaid Elsayed. All rights reserved.</p>
+      
+      <div class="footer-links">
+        <a href="#hero" class="footer-link">Back to Top</a>
+        <span style="color: var(--border-color);">|</span>
+        <a href="https://github.com/Alzahraa-Abozaid" target="_blank" rel="noopener noreferrer" class="footer-link">GitHub</a>
+        <span style="color: var(--border-color);">|</span>
+        <a href="https://linkedin.com/in/zahraa-abozaid-744306261" target="_blank" rel="noopener noreferrer" class="footer-link">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ------------------------------------------------------------------------
+       10. SCRIPTS: Lucide Icons CDN & Custom app.js
+       ------------------------------------------------------------------------ -->
+  <!-- Lucide Icons CDN -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <!-- Application JS Code -->
+  <script src="app.js"></script>
+</body>
+</html>
